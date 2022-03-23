@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Survey Form</title>
+</head>
+<body style="background-color:red">
+<h1 align="center" color="pink"> Geeks for geeks survey form </h1>
+<label>Name</label><br>
+<input type="text" name="Name" value="Enter the Name" size="20"><br>
+<label>Age</label><br>
+<input type="text" name="Age" value="Enter the Age" size="20"><br>
+<label> Which option best suits to you </label><br>
+<select size = "5" >
+<option> student </option>
+<option> Teacher </option>
+<option> Others </option>
+</select><br>
+<label>Languages that you have known</label><br>
+<input type="checkbox">c
+<input type="checkbox">c++
+<input type="checkbox">python
+<input type="checkbox">javascript
+<input type="checkbox">java<br>
+<label> Any comments </label><br>
+<textarea rows="3" cols="5" maxsize="10">
+</textarea><br>
+<label>Gender</label><br>
+<input type="radio" name="Gender">Male<br>
+<input type="radio" name="Gender">Female<br>
+<input type="file" name="file" accept=".png"><br>
+<input type="button" name="button" value="submit">
+</body> 
+</html>
